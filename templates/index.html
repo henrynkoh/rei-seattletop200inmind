@@ -20,6 +20,59 @@
             color: #333;
         }
 
+        /* Navigation */
+        .navbar {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-brand {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+
+        .nav-links a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .nav-links .btn-primary {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .nav-links .btn-primary:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -391,7 +444,35 @@
     </style>
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="nav-brand">
+                <i class="fas fa-home"></i> Property Income Finder
+            </a>
+            <div class="nav-links">
+                <a href="#features"><i class="fas fa-star"></i> Features</a>
+                <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+                <a href="/login" class="btn-primary">
+                    <i class="fas fa-sign-in-alt"></i> Login
+                </a>
+                <a href="/login?demo=true" class="btn-primary">
+                    <i class="fas fa-play"></i> Try Demo
+                </a>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
+        <!-- Demo Banner -->
+        <div style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 15px; padding: 20px; margin-bottom: 30px; text-align: center; color: white;">
+            <h3><i class="fas fa-rocket"></i> Try Our Demo Account</h3>
+            <p>Experience all features with pre-loaded data. Username: <strong>demo</strong> | Password: <strong>demo123</strong></p>
+            <a href="/login?demo=true" style="color: #fff; text-decoration: underline;">
+                <i class="fas fa-arrow-right"></i> Login to Dashboard
+            </a>
+        </div>
+
         <div class="header">
             <h1><i class="fas fa-home"></i> Property Income Finder</h1>
             <p>Discover income-generating real estate opportunities with AI-powered natural language filtering</p>

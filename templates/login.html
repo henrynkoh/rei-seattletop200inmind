@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Property Income Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+        .login-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .login-header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        .login-form {
+            padding: 40px;
+        }
+        .form-control {
+            border-radius: 10px;
+            border: 2px solid #e9ecef;
+            padding: 12px 15px;
+            transition: all 0.3s;
+        }
+        .form-control:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+        }
+        .btn-login {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            border-radius: 10px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .btn-login:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        .feature-list {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .feature-item i {
+            color: #667eea;
+            margin-right: 10px;
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-10 col-lg-8">
+                <div class="login-container">
+                    <div class="row g-0">
+                        <!-- Left Side - Login Form -->
+                        <div class="col-md-6">
+                            <div class="login-header">
+                                <h2><i class="fas fa-home"></i> Property Income Finder</h2>
+                                <p>Your Real Estate Investment Platform</p>
+                            </div>
+                            <div class="login-form">
+                                <h4 class="mb-4">Welcome Back!</h4>
+                                <form id="loginForm">
+                                    <div class="mb-3">
+                                        <label for="username" class="form-label">Username</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                            <input type="text" class="form-control" id="username" required>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">Password</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                            <input type="password" class="form-control" id="password" required>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="rememberMe">
+                                        <label class="form-check-label" for="rememberMe">Remember me</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-login btn-primary w-100 mb-3">
+                                        <i class="fas fa-sign-in-alt"></i> Sign In
+                                    </button>
+                                </form>
+                                <div class="text-center">
+                                    <p class="mb-0">Don't have an account? 
+                                        <a href="/register" class="text-decoration-none">Sign up here</a>
+                                    </p>
+                                    <p class="mt-2">
+                                        <a href="/" class="text-decoration-none">
+                                            <i class="fas fa-arrow-left"></i> Back to Property Search
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Side - Features -->
+                        <div class="col-md-6 d-flex align-items-center">
+                            <div class="p-4">
+                                <h5 class="mb-4">Platform Features</h5>
+                                <div class="feature-list">
+                                    <div class="feature-item">
+                                        <i class="fas fa-search"></i>
+                                        <span>Advanced Property Search</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-calculator"></i>
+                                        <span>Investment Calculator</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-briefcase"></i>
+                                        <span>Portfolio Management</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-chart-line"></i>
+                                        <span>Market Analysis</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-download"></i>
+                                        <span>Export & Reports</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <span>Mobile Responsive</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="mt-4">
+                                    <h6>Demo Account</h6>
+                                    <p class="small text-muted">
+                                        Try the platform with demo credentials:<br>
+                                        <strong>Username:</strong> demo<br>
+                                        <strong>Password:</strong> demo123
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            
+            if (!username || !password) {
+                alert('Please enter both username and password');
+                return;
+            }
+            
+            fetch('/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    username: username,
+                    password: password
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    window.location.href = data.redirect;
+                } else {
+                    alert('Error: ' + data.error);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Login failed. Please try again.');
+            });
+        });
+
+        // Auto-fill demo credentials
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('demo') === 'true') {
+                document.getElementById('username').value = 'demo';
+                document.getElementById('password').value = 'demo123';
+            }
+        });
+    </script>
+</body>
+</html> 
