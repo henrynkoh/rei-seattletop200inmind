@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Income Finder - Find Income-Generating Real Estate</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        .search-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #555;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e1e5e9;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 20px;
+            align-items: end;
+        }
+
+        .strategy-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .strategy-btn {
+            padding: 15px 20px;
+            border: 2px solid #e1e5e9;
+            border-radius: 10px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .strategy-btn:hover {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .strategy-btn.active {
+            border-color: #667eea;
+            background: #667eea;
+            color: white;
+        }
+
+        .strategy-btn h4 {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .strategy-btn p {
+            font-size: 12px;
+            opacity: 0.7;
+        }
+
+        .search-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+
+        .search-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .search-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 40px;
+            color: #667eea;
+        }
+
+        .loading i {
+            font-size: 3rem;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .results-section {
+            display: none;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .stat-card i {
+            font-size: 2.5rem;
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .stat-card h3 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .stat-card p {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .export-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .export-btn:hover {
+            background: #218838;
+            transform: translateY(-1px);
+        }
+
+        .property-grid {
+            display: grid;
+            gap: 25px;
+        }
+
+        .property-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .property-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .property-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 20px;
+        }
+
+        .property-title {
+            flex: 1;
+        }
+
+        .property-title h3 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .property-title p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .confidence-score {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .property-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .detail-item {
+            text-align: center;
+        }
+
+        .detail-item i {
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .detail-item strong {
+            display: block;
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .detail-item span {
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        .keywords-section {
+            margin-bottom: 20px;
+        }
+
+        .keywords-title {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .keyword-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .keyword-tag {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .bonus-tag {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+
+        .property-description {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .property-link {
+            display: inline-flex;
+            align-items: center;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .property-link:hover {
+            color: #764ba2;
+        }
+
+        .property-link i {
+            margin-left: 8px;
+        }
+
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 1px solid #f5c6cb;
+        }
+
+        @media (max-width: 768px) {
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .strategy-buttons {
+                grid-template-columns: 1fr;
+            }
+            
+            .property-details {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-home"></i> Property Income Finder</h1>
+            <p>Discover income-generating real estate opportunities with AI-powered natural language filtering</p>
+        </div>
+
+        <div class="search-card">
+            <form id="searchForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="zipCode"><i class="fas fa-map-marker-alt"></i> ZIP Code</label>
+                        <input type="text" id="zipCode" class="form-control" placeholder="Enter ZIP code (e.g., 98101)" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="apiChoice"><i class="fas fa-database"></i> Data Source</label>
+                        <select id="apiChoice" class="form-control">
+                            <option value="rentspree">RentSpree (Demo)</option>
+                            <option value="zillow">Zillow (Demo)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="propertyLimit"><i class="fas fa-list-ol"></i> Property Limit</label>
+                        <select id="propertyLimit" class="form-control">
+                            <option value="50">50 Properties</option>
+                            <option value="100" selected>100 Properties</option>
+                            <option value="250">250 Properties</option>
+                            <option value="500">500 Properties</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label><i class="fas fa-bullseye"></i> Investment Strategy <span id="strategyCounter">(0 selected)</span></label>
+                    <div class="strategy-buttons" id="strategyButtons">
+                        <!-- Strategy buttons will be loaded here -->
+                    </div>
+                    <div class="strategy-shortcuts">
+                        <span>Quick actions:</span>
+                        <button type="button" class="shortcut-btn" onclick="selectAllStrategies()">
+                            <i class="fas fa-check-double"></i> Select All
+                        </button>
+                        <button type="button" class="shortcut-btn" onclick="clearAllStrategies()">
+                            <i class="fas fa-times"></i> Clear All
+                        </button>
+                        <span style="margin-left: 15px;">Shortcuts: Ctrl+A (Select All), Ctrl+C (Clear)</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="customKeywords"><i class="fas fa-tags"></i> Custom Keywords (Optional)</label>
+                    <input type="text" id="customKeywords" class="form-control" placeholder="Enter custom keywords separated by commas (e.g., tiny house, rental unit)">
+                </div>
+
+                <button type="submit" class="search-btn">
+                    <i class="fas fa-search"></i> Find Income Properties
+                </button>
+            </form>
+        </div>
+
+        <div class="loading" id="loading">
+            <i class="fas fa-spinner"></i>
+            <h3>Searching for income-generating properties...</h3>
+            <p>Analyzing property descriptions with natural language processing</p>
+        </div>
+
+        <div class="results-section" id="resultsSection">
+            <div class="stats-grid" id="statsGrid">
+                <!-- Statistics will be loaded here -->
+            </div>
+
+            <div class="results-header">
+                <h2><i class="fas fa-chart-line"></i> Search Results</h2>
+                <button class="export-btn" id="exportBtn">
+                    <i class="fas fa-download"></i> Export Results
+                </button>
+            </div>
+
+            <div class="property-grid" id="propertyGrid">
+                <!-- Property results will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentResults = [];
+        let currentSearchParams = {};
+
+        // Load investment strategies
+        async function loadStrategies() {
+            try {
+                const response = await fetch('/api/strategies');
+                const strategies = await response.json();
+                
+                const container = document.getElementById('strategyButtons');
+                container.innerHTML = '';
+                
+                Object.entries(strategies).forEach(([key, strategy]) => {
+                    const button = document.createElement('div');
+                    button.className = 'strategy-btn';
+                    button.dataset.strategy = key;
+                    button.innerHTML = `
+                        <h4>${strategy.name}</h4>
+                        <p>${strategy.description}</p>
+                    `;
+                    
+                    button.addEventListener('click', () => {
+                        handleStrategyClick(button, key, strategy);
+                    });
+                    
+                    container.appendChild(button);
+                });
+            } catch (error) {
+                console.error('Error loading strategies:', error);
+            }
+        }
+
+        function handleStrategyClick(button, strategyKey, strategy) {
+            // Toggle active state
+            const wasActive = button.classList.contains('active');
+            button.classList.toggle('active');
+            
+            // Add visual feedback
+            if (!wasActive) {
+                // Button was just activated
+                button.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    button.style.transform = 'scale(1)';
+                }, 150);
+                
+                // Show notification
+                showStrategyNotification(`✅ ${strategy.name} strategy selected!`, 'success');
+            } else {
+                // Button was deactivated
+                showStrategyNotification(`❌ ${strategy.name} strategy deselected`, 'info');
+            }
+            
+            // Update strategy counter
+            updateStrategyCounter();
+            
+            // Update custom keywords
+            updateCustomKeywords();
+            
+            // Auto-trigger search if ZIP code is filled
+            const zipCode = document.getElementById('zipCode').value.trim();
+            if (zipCode && button.classList.contains('active')) {
+                setTimeout(() => {
+                    if (confirm(`Would you like to search for ${strategy.name} properties in ${zipCode}?`)) {
+                        document.getElementById('searchForm').dispatchEvent(new Event('submit'));
+                    }
+                }, 500);
+            }
+        }
+
+        function updateStrategyCounter() {
+            const activeStrategies = document.querySelectorAll('.strategy-btn.active');
+            const counter = document.getElementById('strategyCounter');
+            const count = activeStrategies.length;
+            
+            if (count === 0) {
+                counter.textContent = '(0 selected)';
+                counter.style.color = '#666';
+            } else {
+                counter.textContent = `(${count} selected)`;
+                counter.style.color = '#28a745';
+                counter.style.fontWeight = '600';
+            }
+        }
+
+        function showStrategyNotification(message, type = 'info') {
+            // Remove existing notifications
+            const existingNotification = document.querySelector('.strategy-notification');
+            if (existingNotification) {
+                existingNotification.remove();
+            }
+            
+            // Create notification
+            const notification = document.createElement('div');
+            notification.className = `strategy-notification ${type}`;
+            notification.innerHTML = `
+                <i class="fas fa-${type === 'success' ? 'check-circle' : 'info-circle'}"></i>
+                ${message}
+            `;
+            
+            // Add styles
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: ${type === 'success' ? '#28a745' : '#17a2b8'};
+                color: white;
+                padding: 15px 20px;
+                border-radius: 10px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+                z-index: 1000;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-weight: 600;
+                animation: slideIn 0.3s ease;
+            `;
+            
+            document.body.appendChild(notification);
+            
+            // Auto-remove after 3 seconds
+            setTimeout(() => {
+                notification.style.animation = 'slideOut 0.3s ease';
+                setTimeout(() => {
+                    if (notification.parentNode) {
+                        notification.remove();
+                    }
+                }, 300);
+            }, 3000);
+        }
+
+        function updateCustomKeywords() {
+            const activeStrategies = document.querySelectorAll('.strategy-btn.active');
+            const customKeywordsInput = document.getElementById('customKeywords');
+            
+            if (activeStrategies.length === 0) {
+                // Clear keywords if no strategies selected
+                customKeywordsInput.value = '';
+                customKeywordsInput.placeholder = 'Enter custom keywords separated by commas (e.g., tiny house, rental unit)';
+                return;
+            }
+            
+            // Get keywords from active strategies
+            fetch('/api/strategies')
+                .then(response => response.json())
+                .then(strategies => {
+                    let allKeywords = [];
+                    let strategyNames = [];
+                    
+                    activeStrategies.forEach(btn => {
+                        const strategyKey = btn.dataset.strategy;
+                        if (strategies[strategyKey]) {
+                            allKeywords = allKeywords.concat(strategies[strategyKey].keywords);
+                            strategyNames.push(strategies[strategyKey].name);
+                        }
+                    });
+                    
+                    // Remove duplicates
+                    allKeywords = [...new Set(allKeywords)];
+                    
+                    customKeywordsInput.value = allKeywords.join(', ');
+                    customKeywordsInput.placeholder = `Keywords from: ${strategyNames.join(', ')}`;
+                    
+                    // Add visual indicator
+                    customKeywordsInput.style.borderColor = '#28a745';
+                    customKeywordsInput.style.backgroundColor = '#f8fff8';
+                    
+                    setTimeout(() => {
+                        customKeywordsInput.style.borderColor = '#e1e5e9';
+                        customKeywordsInput.style.backgroundColor = 'white';
+                    }, 2000);
+                });
+        }
+
+        // Add strategy selection shortcuts
+        function selectAllStrategies() {
+            const strategyButtons = document.querySelectorAll('.strategy-btn');
+            let selectedCount = 0;
+            
+            strategyButtons.forEach(btn => {
+                if (!btn.classList.contains('active')) {
+                    btn.classList.add('active');
+                    selectedCount++;
+                }
+            });
+            
+            if (selectedCount > 0) {
+                updateStrategyCounter();
+                updateCustomKeywords();
+                showStrategyNotification(`✅ Selected all ${strategyButtons.length} investment strategies!`, 'success');
+            } else {
+                showStrategyNotification(`ℹ️ All strategies are already selected`, 'info');
+            }
+        }
+
+        function clearAllStrategies() {
+            const activeButtons = document.querySelectorAll('.strategy-btn.active');
+            const clearedCount = activeButtons.length;
+            
+            activeButtons.forEach(btn => btn.classList.remove('active'));
+            
+            if (clearedCount > 0) {
+                updateStrategyCounter();
+                updateCustomKeywords();
+                showStrategyNotification(`🗑️ Cleared ${clearedCount} selected strategies`, 'info');
+            } else {
+                showStrategyNotification(`ℹ️ No strategies were selected to clear`, 'info');
+            }
+        }
+
+        // Add keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.ctrlKey || e.metaKey) {
+                switch(e.key) {
+                    case 'a':
+                        e.preventDefault();
+                        selectAllStrategies();
+                        break;
+                    case 'c':
+                        e.preventDefault();
+                        clearAllStrategies();
+                        break;
+                }
+            }
+        });
+
+        // Enhanced strategy button hover effects
+        function addStrategyButtonEnhancements() {
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes slideIn {
+                    from { transform: translateX(100%); opacity: 0; }
+                    to { transform: translateX(0); opacity: 1; }
+                }
+                
+                @keyframes slideOut {
+                    from { transform: translateX(0); opacity: 1; }
+                    to { transform: translateX(100%); opacity: 0; }
+                }
+                
+                .strategy-btn {
+                    position: relative;
+                    overflow: hidden;
+                }
+                
+                .strategy-btn::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -100%;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+                    transition: left 0.5s;
+                }
+                
+                .strategy-btn:hover::before {
+                    left: 100%;
+                }
+                
+                .strategy-btn.active {
+                    animation: pulse 2s infinite;
+                }
+                
+                @keyframes pulse {
+                    0% { box-shadow: 0 0 0 0 rgba(102, 126, 234, 0.7); }
+                    70% { box-shadow: 0 0 0 10px rgba(102, 126, 234, 0); }
+                    100% { box-shadow: 0 0 0 0 rgba(102, 126, 234, 0); }
+                }
+                
+                .strategy-shortcuts {
+                    text-align: center;
+                    margin-top: 15px;
+                    font-size: 12px;
+                    color: #666;
+                }
+                
+                .shortcut-btn {
+                    background: #f8f9fa;
+                    border: 1px solid #dee2e6;
+                    border-radius: 5px;
+                    padding: 5px 10px;
+                    margin: 0 5px;
+                    cursor: pointer;
+                    font-size: 11px;
+                    transition: all 0.2s;
+                }
+                
+                .shortcut-btn:hover {
+                    background: #e9ecef;
+                    border-color: #adb5bd;
+                }
+            `;
+            document.head.appendChild(style);
+        }
+
+        // Handle form submission
+        document.getElementById('searchForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const zipCode = document.getElementById('zipCode').value.trim();
+            const apiChoice = document.getElementById('apiChoice').value;
+            const limit = parseInt(document.getElementById('propertyLimit').value);
+            const customKeywords = document.getElementById('customKeywords').value
+                .split(',')
+                .map(k => k.trim())
+                .filter(k => k.length > 0);
+            
+            if (!zipCode) {
+                alert('Please enter a ZIP code');
+                return;
+            }
+            
+            // Show loading
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('resultsSection').style.display = 'none';
+            document.querySelector('.search-btn').disabled = true;
+            
+            try {
+                const response = await fetch('/api/search', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        zip_code: zipCode,
+                        api: apiChoice,
+                        limit: limit,
+                        keywords: customKeywords
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    currentResults = data.results;
+                    currentSearchParams = data.search_params;
+                    displayResults(data);
+                } else {
+                    showError(data.error || 'Search failed');
+                }
+            } catch (error) {
+                showError('Network error: ' + error.message);
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+                document.querySelector('.search-btn').disabled = false;
+            }
+        });
+
+        function displayResults(data) {
+            const { results, statistics } = data;
+            
+            // Get active strategies for display
+            const activeStrategies = document.querySelectorAll('.strategy-btn.active');
+            const strategyNames = Array.from(activeStrategies).map(btn => 
+                btn.querySelector('h4').textContent
+            );
+            
+            // Display statistics
+            const statsGrid = document.getElementById('statsGrid');
+            statsGrid.innerHTML = `
+                <div class="stat-card">
+                    <i class="fas fa-home"></i>
+                    <h3>${statistics.total_properties}</h3>
+                    <p>Total Properties</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>${statistics.total_matches}</h3>
+                    <p>Income Matches</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-star"></i>
+                    <h3>${statistics.avg_confidence}</h3>
+                    <p>Avg Confidence</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>${statistics.high_confidence_count}</h3>
+                    <p>High Confidence</p>
+                </div>
+                ${strategyNames.length > 0 ? `
+                <div class="stat-card" style="grid-column: span 2;">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>${strategyNames.length}</h3>
+                    <p>Active Strategies: ${strategyNames.join(', ')}</p>
+                </div>
+                ` : ''}
+            `;
+            
+            // Display properties
+            const propertyGrid = document.getElementById('propertyGrid');
+            propertyGrid.innerHTML = '';
+            
+            results.forEach((property, index) => {
+                const propertyCard = createPropertyCard(property, index + 1);
+                propertyGrid.appendChild(propertyCard);
+            });
+            
+            document.getElementById('resultsSection').style.display = 'block';
+        }
+
+        function createPropertyCard(property, rank) {
+            const card = document.createElement('div');
+            card.className = 'property-card';
+            
+            const confidenceColor = property.confidence_score >= 0.8 ? '#28a745' : 
+                                   property.confidence_score >= 0.6 ? '#ffc107' : '#dc3545';
+            
+            card.innerHTML = `
+                <div class="property-header">
+                    <div class="property-title">
+                        <h3>#${rank} ${property.address}</h3>
+                        <p>${property.property_type || 'Property'}</p>
+                    </div>
+                    <div class="confidence-score" style="background: ${confidenceColor}">
+                        ${(property.confidence_score * 100).toFixed(0)}% Match
+                    </div>
+                </div>
+                
+                <div class="property-details">
+                    <div class="detail-item">
+                        <i class="fas fa-dollar-sign"></i>
+                        <strong>${property.price || 'N/A'}</strong>
+                        <span>Price</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-bed"></i>
+                        <strong>${property.bedrooms || 'N/A'}</strong>
+                        <span>Bedrooms</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-bath"></i>
+                        <strong>${property.bathrooms || 'N/A'}</strong>
+                        <span>Bathrooms</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-ruler-combined"></i>
+                        <strong>${property.sqft ? property.sqft.toLocaleString() : 'N/A'}</strong>
+                        <span>Sq Ft</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map"></i>
+                        <strong>${property.lot_size || 'N/A'}</strong>
+                        <span>Lot Size</span>
+                    </div>
+                </div>
+                
+                ${property.matched_keywords.length > 0 ? `
+                <div class="keywords-section">
+                    <div class="keywords-title"><i class="fas fa-tags"></i> Income Keywords</div>
+                    <div class="keyword-tags">
+                        ${property.matched_keywords.map(keyword => 
+                            `<span class="keyword-tag">${keyword}</span>`
+                        ).join('')}
+                    </div>
+                </div>
+                ` : ''}
+                
+                ${property.bonus_features.length > 0 ? `
+                <div class="keywords-section">
+                    <div class="keywords-title"><i class="fas fa-plus-circle"></i> Bonus Features</div>
+                    <div class="keyword-tags">
+                        ${property.bonus_features.map(feature => 
+                            `<span class="keyword-tag bonus-tag">${feature}</span>`
+                        ).join('')}
+                    </div>
+                </div>
+                ` : ''}
+                
+                <div class="property-description">
+                    ${property.description}
+                </div>
+                
+                ${property.listing_url ? `
+                <a href="${property.listing_url}" target="_blank" class="property-link">
+                    View Full Listing <i class="fas fa-external-link-alt"></i>
+                </a>
+                ` : ''}
+            `;
+            
+            return card;
+        }
+
+        function showError(message) {
+            const resultsSection = document.getElementById('resultsSection');
+            resultsSection.innerHTML = `
+                <div class="error-message">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <strong>Error:</strong> ${message}
+                </div>
+            `;
+            resultsSection.style.display = 'block';
+        }
+
+        // Export functionality
+        document.getElementById('exportBtn').addEventListener('click', async () => {
+            if (currentResults.length === 0) {
+                alert('No results to export');
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/export', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        results: currentResults,
+                        zip_code: currentSearchParams.zip_code,
+                        search_params: currentSearchParams
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    // Create download link
+                    const link = document.createElement('a');
+                    link.href = `/download/${data.filename}`;
+                    link.download = data.filename;
+                    link.click();
+                } else {
+                    alert('Export failed: ' + data.error);
+                }
+            } catch (error) {
+                alert('Export error: ' + error.message);
+            }
+        });
+
+        // Initialize
+        loadStrategies();
+        addStrategyButtonEnhancements();
+    </script>
+</body>
+</html> 

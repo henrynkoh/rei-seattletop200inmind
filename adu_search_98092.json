@@ -1,0 +1,1812 @@
+[
+  {
+    "address": "1000 Example St, City, State 98092",
+    "price": "$450,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 1800,
+    "lot_size": "0.25 acres",
+    "description": "Beautiful single-family home with detached ADU perfect for rental income. Features include a large 3-car garage with high ceilings and workshop space. The accessory dwelling unit has a separate entrance and full kitchen. ",
+    "matched_keywords": [
+      "rental income",
+      "adu",
+      "accessory dwelling unit",
+      "separate entrance",
+      "adu",
+      "accessory dwelling unit"
+    ],
+    "bonus_features": [
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1000"
+  },
+  {
+    "address": "1001 Example St, City, State 98092",
+    "price": "$475,000",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 1900,
+    "lot_size": "0.35 acres",
+    "description": "Multi-generational home with in-law suite featuring private entrance. Large garage with RV parking capability. Perfect for extended family or rental income opportunity. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income",
+      "in-law suite",
+      "private entrance"
+    ],
+    "bonus_features": [
+      "large garage",
+      "rv parking"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1001"
+  },
+  {
+    "address": "1003 Example St, City, State 98092",
+    "price": "$525,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 2100,
+    "lot_size": "0.55 acres",
+    "description": "Custom home with guest house and oversized garage. The casita features full kitchen and bathroom, perfect for Airbnb or long-term rental. Workshop space in garage. ",
+    "matched_keywords": [
+      "guest house",
+      "casita",
+      "guest house"
+    ],
+    "bonus_features": [
+      "oversized garage",
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1003"
+  },
+  {
+    "address": "1004 Example St, City, State 98092",
+    "price": "$550,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 2200,
+    "lot_size": "0.25 acres",
+    "description": "Traditional home with basement apartment featuring separate entrance. Large garage with heightened ceilings suitable for boat or RV storage. Great investment opportunity. ",
+    "matched_keywords": [
+      "separate entrance",
+      "basement apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1004"
+  },
+  {
+    "address": "1005 Example St, City, State 98092",
+    "price": "$575,000",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "sqft": 2300,
+    "lot_size": "0.35 acres",
+    "description": "Single-family residence with detached garage and bonus room above. Property includes a small cottage perfect for rental income or multi-generational living. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income"
+    ],
+    "bonus_features": [
+      "detached garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1005"
+  },
+  {
+    "address": "1006 Example St, City, State 98092",
+    "price": "$600,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 2400,
+    "lot_size": "0.45 acres",
+    "description": "Charming home with carriage house and large workshop. The guest cottage has been updated with modern amenities and generates steady rental income. ",
+    "matched_keywords": [
+      "rental income",
+      "guest cottage",
+      "carriage house"
+    ],
+    "bonus_features": [
+      "workshop"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1006"
+  },
+  {
+    "address": "1010 Example St, City, State 98092",
+    "price": "$700,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 2800,
+    "lot_size": "0.45 acres",
+    "description": "Beautiful single-family home with detached ADU perfect for rental income. Features include a large 3-car garage with high ceilings and workshop space. The accessory dwelling unit has a separate entrance and full kitchen. ",
+    "matched_keywords": [
+      "rental income",
+      "adu",
+      "accessory dwelling unit",
+      "separate entrance",
+      "adu",
+      "accessory dwelling unit"
+    ],
+    "bonus_features": [
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1010"
+  },
+  {
+    "address": "1011 Example St, City, State 98092",
+    "price": "$725,000",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "sqft": 2900,
+    "lot_size": "0.55 acres",
+    "description": "Multi-generational home with in-law suite featuring private entrance. Large garage with RV parking capability. Perfect for extended family or rental income opportunity. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income",
+      "in-law suite",
+      "private entrance"
+    ],
+    "bonus_features": [
+      "large garage",
+      "rv parking"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1011"
+  },
+  {
+    "address": "1013 Example St, City, State 98092",
+    "price": "$775,000",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 3100,
+    "lot_size": "0.35 acres",
+    "description": "Custom home with guest house and oversized garage. The casita features full kitchen and bathroom, perfect for Airbnb or long-term rental. Workshop space in garage. ",
+    "matched_keywords": [
+      "guest house",
+      "casita",
+      "guest house"
+    ],
+    "bonus_features": [
+      "oversized garage",
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1013"
+  },
+  {
+    "address": "1014 Example St, City, State 98092",
+    "price": "$800,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 3200,
+    "lot_size": "0.45 acres",
+    "description": "Traditional home with basement apartment featuring separate entrance. Large garage with heightened ceilings suitable for boat or RV storage. Great investment opportunity. ",
+    "matched_keywords": [
+      "separate entrance",
+      "basement apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1014"
+  },
+  {
+    "address": "1015 Example St, City, State 98092",
+    "price": "$825,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 3300,
+    "lot_size": "0.55 acres",
+    "description": "Single-family residence with detached garage and bonus room above. Property includes a small cottage perfect for rental income or multi-generational living. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income"
+    ],
+    "bonus_features": [
+      "detached garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1015"
+  },
+  {
+    "address": "1016 Example St, City, State 98092",
+    "price": "$850,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 3400,
+    "lot_size": "0.25 acres",
+    "description": "Charming home with carriage house and large workshop. The guest cottage has been updated with modern amenities and generates steady rental income. ",
+    "matched_keywords": [
+      "rental income",
+      "guest cottage",
+      "carriage house"
+    ],
+    "bonus_features": [
+      "workshop"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1016"
+  },
+  {
+    "address": "1020 Example St, City, State 98092",
+    "price": "$950,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 3800,
+    "lot_size": "0.25 acres",
+    "description": "Beautiful single-family home with detached ADU perfect for rental income. Features include a large 3-car garage with high ceilings and workshop space. The accessory dwelling unit has a separate entrance and full kitchen. ",
+    "matched_keywords": [
+      "rental income",
+      "adu",
+      "accessory dwelling unit",
+      "separate entrance",
+      "adu",
+      "accessory dwelling unit"
+    ],
+    "bonus_features": [
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1020"
+  },
+  {
+    "address": "1021 Example St, City, State 98092",
+    "price": "$975,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 3900,
+    "lot_size": "0.35 acres",
+    "description": "Multi-generational home with in-law suite featuring private entrance. Large garage with RV parking capability. Perfect for extended family or rental income opportunity. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income",
+      "in-law suite",
+      "private entrance"
+    ],
+    "bonus_features": [
+      "large garage",
+      "rv parking"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1021"
+  },
+  {
+    "address": "1023 Example St, City, State 98092",
+    "price": "$1,025,000",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "sqft": 4100,
+    "lot_size": "0.55 acres",
+    "description": "Custom home with guest house and oversized garage. The casita features full kitchen and bathroom, perfect for Airbnb or long-term rental. Workshop space in garage. ",
+    "matched_keywords": [
+      "guest house",
+      "casita",
+      "guest house"
+    ],
+    "bonus_features": [
+      "oversized garage",
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1023"
+  },
+  {
+    "address": "1024 Example St, City, State 98092",
+    "price": "$1,050,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 4200,
+    "lot_size": "0.25 acres",
+    "description": "Traditional home with basement apartment featuring separate entrance. Large garage with heightened ceilings suitable for boat or RV storage. Great investment opportunity. ",
+    "matched_keywords": [
+      "separate entrance",
+      "basement apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1024"
+  },
+  {
+    "address": "1025 Example St, City, State 98092",
+    "price": "$1,075,000",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 4300,
+    "lot_size": "0.35 acres",
+    "description": "Single-family residence with detached garage and bonus room above. Property includes a small cottage perfect for rental income or multi-generational living. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income"
+    ],
+    "bonus_features": [
+      "detached garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1025"
+  },
+  {
+    "address": "1026 Example St, City, State 98092",
+    "price": "$1,100,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 4400,
+    "lot_size": "0.45 acres",
+    "description": "Charming home with carriage house and large workshop. The guest cottage has been updated with modern amenities and generates steady rental income. ",
+    "matched_keywords": [
+      "rental income",
+      "guest cottage",
+      "carriage house"
+    ],
+    "bonus_features": [
+      "workshop"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1026"
+  },
+  {
+    "address": "1030 Example St, City, State 98092",
+    "price": "$1,200,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 4800,
+    "lot_size": "0.45 acres",
+    "description": "Beautiful single-family home with detached ADU perfect for rental income. Features include a large 3-car garage with high ceilings and workshop space. The accessory dwelling unit has a separate entrance and full kitchen. ",
+    "matched_keywords": [
+      "rental income",
+      "adu",
+      "accessory dwelling unit",
+      "separate entrance",
+      "adu",
+      "accessory dwelling unit"
+    ],
+    "bonus_features": [
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1030"
+  },
+  {
+    "address": "1031 Example St, City, State 98092",
+    "price": "$1,225,000",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 4900,
+    "lot_size": "0.55 acres",
+    "description": "Multi-generational home with in-law suite featuring private entrance. Large garage with RV parking capability. Perfect for extended family or rental income opportunity. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income",
+      "in-law suite",
+      "private entrance"
+    ],
+    "bonus_features": [
+      "large garage",
+      "rv parking"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1031"
+  },
+  {
+    "address": "1033 Example St, City, State 98092",
+    "price": "$1,275,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 5100,
+    "lot_size": "0.35 acres",
+    "description": "Custom home with guest house and oversized garage. The casita features full kitchen and bathroom, perfect for Airbnb or long-term rental. Workshop space in garage. ",
+    "matched_keywords": [
+      "guest house",
+      "casita",
+      "guest house"
+    ],
+    "bonus_features": [
+      "oversized garage",
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1033"
+  },
+  {
+    "address": "1034 Example St, City, State 98092",
+    "price": "$1,300,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 5200,
+    "lot_size": "0.45 acres",
+    "description": "Traditional home with basement apartment featuring separate entrance. Large garage with heightened ceilings suitable for boat or RV storage. Great investment opportunity. ",
+    "matched_keywords": [
+      "separate entrance",
+      "basement apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1034"
+  },
+  {
+    "address": "1035 Example St, City, State 98092",
+    "price": "$1,325,000",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "sqft": 5300,
+    "lot_size": "0.55 acres",
+    "description": "Single-family residence with detached garage and bonus room above. Property includes a small cottage perfect for rental income or multi-generational living. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income"
+    ],
+    "bonus_features": [
+      "detached garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1035"
+  },
+  {
+    "address": "1036 Example St, City, State 98092",
+    "price": "$1,350,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 5400,
+    "lot_size": "0.25 acres",
+    "description": "Charming home with carriage house and large workshop. The guest cottage has been updated with modern amenities and generates steady rental income. ",
+    "matched_keywords": [
+      "rental income",
+      "guest cottage",
+      "carriage house"
+    ],
+    "bonus_features": [
+      "workshop"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1036"
+  },
+  {
+    "address": "1040 Example St, City, State 98092",
+    "price": "$1,450,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 5800,
+    "lot_size": "0.25 acres",
+    "description": "Beautiful single-family home with detached ADU perfect for rental income. Features include a large 3-car garage with high ceilings and workshop space. The accessory dwelling unit has a separate entrance and full kitchen. ",
+    "matched_keywords": [
+      "rental income",
+      "adu",
+      "accessory dwelling unit",
+      "separate entrance",
+      "adu",
+      "accessory dwelling unit"
+    ],
+    "bonus_features": [
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1040"
+  },
+  {
+    "address": "1041 Example St, City, State 98092",
+    "price": "$1,475,000",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "sqft": 5900,
+    "lot_size": "0.35 acres",
+    "description": "Multi-generational home with in-law suite featuring private entrance. Large garage with RV parking capability. Perfect for extended family or rental income opportunity. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income",
+      "in-law suite",
+      "private entrance"
+    ],
+    "bonus_features": [
+      "large garage",
+      "rv parking"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1041"
+  },
+  {
+    "address": "1043 Example St, City, State 98092",
+    "price": "$1,525,000",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 6100,
+    "lot_size": "0.55 acres",
+    "description": "Custom home with guest house and oversized garage. The casita features full kitchen and bathroom, perfect for Airbnb or long-term rental. Workshop space in garage. ",
+    "matched_keywords": [
+      "guest house",
+      "casita",
+      "guest house"
+    ],
+    "bonus_features": [
+      "oversized garage",
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1043"
+  },
+  {
+    "address": "1044 Example St, City, State 98092",
+    "price": "$1,550,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 6200,
+    "lot_size": "0.25 acres",
+    "description": "Traditional home with basement apartment featuring separate entrance. Large garage with heightened ceilings suitable for boat or RV storage. Great investment opportunity. ",
+    "matched_keywords": [
+      "separate entrance",
+      "basement apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1044"
+  },
+  {
+    "address": "1045 Example St, City, State 98092",
+    "price": "$1,575,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 6300,
+    "lot_size": "0.35 acres",
+    "description": "Single-family residence with detached garage and bonus room above. Property includes a small cottage perfect for rental income or multi-generational living. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income"
+    ],
+    "bonus_features": [
+      "detached garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1045"
+  },
+  {
+    "address": "1046 Example St, City, State 98092",
+    "price": "$1,600,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 6400,
+    "lot_size": "0.45 acres",
+    "description": "Charming home with carriage house and large workshop. The guest cottage has been updated with modern amenities and generates steady rental income. ",
+    "matched_keywords": [
+      "rental income",
+      "guest cottage",
+      "carriage house"
+    ],
+    "bonus_features": [
+      "workshop"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1046"
+  },
+  {
+    "address": "1050 Example St, City, State 98092",
+    "price": "$1,700,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 6800,
+    "lot_size": "0.45 acres",
+    "description": "Beautiful single-family home with detached ADU perfect for rental income. Features include a large 3-car garage with high ceilings and workshop space. The accessory dwelling unit has a separate entrance and full kitchen. ",
+    "matched_keywords": [
+      "rental income",
+      "adu",
+      "accessory dwelling unit",
+      "separate entrance",
+      "adu",
+      "accessory dwelling unit"
+    ],
+    "bonus_features": [
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1050"
+  },
+  {
+    "address": "1051 Example St, City, State 98092",
+    "price": "$1,725,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 6900,
+    "lot_size": "0.55 acres",
+    "description": "Multi-generational home with in-law suite featuring private entrance. Large garage with RV parking capability. Perfect for extended family or rental income opportunity. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income",
+      "in-law suite",
+      "private entrance"
+    ],
+    "bonus_features": [
+      "large garage",
+      "rv parking"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1051"
+  },
+  {
+    "address": "1053 Example St, City, State 98092",
+    "price": "$1,775,000",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "sqft": 7100,
+    "lot_size": "0.35 acres",
+    "description": "Custom home with guest house and oversized garage. The casita features full kitchen and bathroom, perfect for Airbnb or long-term rental. Workshop space in garage. ",
+    "matched_keywords": [
+      "guest house",
+      "casita",
+      "guest house"
+    ],
+    "bonus_features": [
+      "oversized garage",
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1053"
+  },
+  {
+    "address": "1054 Example St, City, State 98092",
+    "price": "$1,800,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 7200,
+    "lot_size": "0.45 acres",
+    "description": "Traditional home with basement apartment featuring separate entrance. Large garage with heightened ceilings suitable for boat or RV storage. Great investment opportunity. ",
+    "matched_keywords": [
+      "separate entrance",
+      "basement apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1054"
+  },
+  {
+    "address": "1055 Example St, City, State 98092",
+    "price": "$1,825,000",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 7300,
+    "lot_size": "0.55 acres",
+    "description": "Single-family residence with detached garage and bonus room above. Property includes a small cottage perfect for rental income or multi-generational living. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income"
+    ],
+    "bonus_features": [
+      "detached garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1055"
+  },
+  {
+    "address": "1056 Example St, City, State 98092",
+    "price": "$1,850,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 7400,
+    "lot_size": "0.25 acres",
+    "description": "Charming home with carriage house and large workshop. The guest cottage has been updated with modern amenities and generates steady rental income. ",
+    "matched_keywords": [
+      "rental income",
+      "guest cottage",
+      "carriage house"
+    ],
+    "bonus_features": [
+      "workshop"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1056"
+  },
+  {
+    "address": "1060 Example St, City, State 98092",
+    "price": "$1,950,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 7800,
+    "lot_size": "0.25 acres",
+    "description": "Beautiful single-family home with detached ADU perfect for rental income. Features include a large 3-car garage with high ceilings and workshop space. The accessory dwelling unit has a separate entrance and full kitchen. ",
+    "matched_keywords": [
+      "rental income",
+      "adu",
+      "accessory dwelling unit",
+      "separate entrance",
+      "adu",
+      "accessory dwelling unit"
+    ],
+    "bonus_features": [
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1060"
+  },
+  {
+    "address": "1061 Example St, City, State 98092",
+    "price": "$1,975,000",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 7900,
+    "lot_size": "0.35 acres",
+    "description": "Multi-generational home with in-law suite featuring private entrance. Large garage with RV parking capability. Perfect for extended family or rental income opportunity. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income",
+      "in-law suite",
+      "private entrance"
+    ],
+    "bonus_features": [
+      "large garage",
+      "rv parking"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1061"
+  },
+  {
+    "address": "1063 Example St, City, State 98092",
+    "price": "$2,025,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 8100,
+    "lot_size": "0.55 acres",
+    "description": "Custom home with guest house and oversized garage. The casita features full kitchen and bathroom, perfect for Airbnb or long-term rental. Workshop space in garage. ",
+    "matched_keywords": [
+      "guest house",
+      "casita",
+      "guest house"
+    ],
+    "bonus_features": [
+      "oversized garage",
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1063"
+  },
+  {
+    "address": "1064 Example St, City, State 98092",
+    "price": "$2,050,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 8200,
+    "lot_size": "0.25 acres",
+    "description": "Traditional home with basement apartment featuring separate entrance. Large garage with heightened ceilings suitable for boat or RV storage. Great investment opportunity. ",
+    "matched_keywords": [
+      "separate entrance",
+      "basement apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1064"
+  },
+  {
+    "address": "1065 Example St, City, State 98092",
+    "price": "$2,075,000",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "sqft": 8300,
+    "lot_size": "0.35 acres",
+    "description": "Single-family residence with detached garage and bonus room above. Property includes a small cottage perfect for rental income or multi-generational living. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income"
+    ],
+    "bonus_features": [
+      "detached garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1065"
+  },
+  {
+    "address": "1066 Example St, City, State 98092",
+    "price": "$2,100,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 8400,
+    "lot_size": "0.45 acres",
+    "description": "Charming home with carriage house and large workshop. The guest cottage has been updated with modern amenities and generates steady rental income. ",
+    "matched_keywords": [
+      "rental income",
+      "guest cottage",
+      "carriage house"
+    ],
+    "bonus_features": [
+      "workshop"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1066"
+  },
+  {
+    "address": "1070 Example St, City, State 98092",
+    "price": "$2,200,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 8800,
+    "lot_size": "0.45 acres",
+    "description": "Beautiful single-family home with detached ADU perfect for rental income. Features include a large 3-car garage with high ceilings and workshop space. The accessory dwelling unit has a separate entrance and full kitchen. ",
+    "matched_keywords": [
+      "rental income",
+      "adu",
+      "accessory dwelling unit",
+      "separate entrance",
+      "adu",
+      "accessory dwelling unit"
+    ],
+    "bonus_features": [
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1070"
+  },
+  {
+    "address": "1071 Example St, City, State 98092",
+    "price": "$2,225,000",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "sqft": 8900,
+    "lot_size": "0.55 acres",
+    "description": "Multi-generational home with in-law suite featuring private entrance. Large garage with RV parking capability. Perfect for extended family or rental income opportunity. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income",
+      "in-law suite",
+      "private entrance"
+    ],
+    "bonus_features": [
+      "large garage",
+      "rv parking"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1071"
+  },
+  {
+    "address": "1073 Example St, City, State 98092",
+    "price": "$2,275,000",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 9100,
+    "lot_size": "0.35 acres",
+    "description": "Custom home with guest house and oversized garage. The casita features full kitchen and bathroom, perfect for Airbnb or long-term rental. Workshop space in garage. ",
+    "matched_keywords": [
+      "guest house",
+      "casita",
+      "guest house"
+    ],
+    "bonus_features": [
+      "oversized garage",
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1073"
+  },
+  {
+    "address": "1074 Example St, City, State 98092",
+    "price": "$2,300,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 9200,
+    "lot_size": "0.45 acres",
+    "description": "Traditional home with basement apartment featuring separate entrance. Large garage with heightened ceilings suitable for boat or RV storage. Great investment opportunity. ",
+    "matched_keywords": [
+      "separate entrance",
+      "basement apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1074"
+  },
+  {
+    "address": "1075 Example St, City, State 98092",
+    "price": "$2,325,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 9300,
+    "lot_size": "0.55 acres",
+    "description": "Single-family residence with detached garage and bonus room above. Property includes a small cottage perfect for rental income or multi-generational living. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income"
+    ],
+    "bonus_features": [
+      "detached garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1075"
+  },
+  {
+    "address": "1076 Example St, City, State 98092",
+    "price": "$2,350,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 9400,
+    "lot_size": "0.25 acres",
+    "description": "Charming home with carriage house and large workshop. The guest cottage has been updated with modern amenities and generates steady rental income. ",
+    "matched_keywords": [
+      "rental income",
+      "guest cottage",
+      "carriage house"
+    ],
+    "bonus_features": [
+      "workshop"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1076"
+  },
+  {
+    "address": "1080 Example St, City, State 98092",
+    "price": "$2,450,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 9800,
+    "lot_size": "0.25 acres",
+    "description": "Beautiful single-family home with detached ADU perfect for rental income. Features include a large 3-car garage with high ceilings and workshop space. The accessory dwelling unit has a separate entrance and full kitchen. ",
+    "matched_keywords": [
+      "rental income",
+      "adu",
+      "accessory dwelling unit",
+      "separate entrance",
+      "adu",
+      "accessory dwelling unit"
+    ],
+    "bonus_features": [
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1080"
+  },
+  {
+    "address": "1081 Example St, City, State 98092",
+    "price": "$2,475,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 9900,
+    "lot_size": "0.35 acres",
+    "description": "Multi-generational home with in-law suite featuring private entrance. Large garage with RV parking capability. Perfect for extended family or rental income opportunity. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income",
+      "in-law suite",
+      "private entrance"
+    ],
+    "bonus_features": [
+      "large garage",
+      "rv parking"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1081"
+  },
+  {
+    "address": "1083 Example St, City, State 98092",
+    "price": "$2,525,000",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "sqft": 10100,
+    "lot_size": "0.55 acres",
+    "description": "Custom home with guest house and oversized garage. The casita features full kitchen and bathroom, perfect for Airbnb or long-term rental. Workshop space in garage. ",
+    "matched_keywords": [
+      "guest house",
+      "casita",
+      "guest house"
+    ],
+    "bonus_features": [
+      "oversized garage",
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1083"
+  },
+  {
+    "address": "1084 Example St, City, State 98092",
+    "price": "$2,550,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 10200,
+    "lot_size": "0.25 acres",
+    "description": "Traditional home with basement apartment featuring separate entrance. Large garage with heightened ceilings suitable for boat or RV storage. Great investment opportunity. ",
+    "matched_keywords": [
+      "separate entrance",
+      "basement apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1084"
+  },
+  {
+    "address": "1085 Example St, City, State 98092",
+    "price": "$2,575,000",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 10300,
+    "lot_size": "0.35 acres",
+    "description": "Single-family residence with detached garage and bonus room above. Property includes a small cottage perfect for rental income or multi-generational living. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income"
+    ],
+    "bonus_features": [
+      "detached garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1085"
+  },
+  {
+    "address": "1086 Example St, City, State 98092",
+    "price": "$2,600,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 10400,
+    "lot_size": "0.45 acres",
+    "description": "Charming home with carriage house and large workshop. The guest cottage has been updated with modern amenities and generates steady rental income. ",
+    "matched_keywords": [
+      "rental income",
+      "guest cottage",
+      "carriage house"
+    ],
+    "bonus_features": [
+      "workshop"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1086"
+  },
+  {
+    "address": "1090 Example St, City, State 98092",
+    "price": "$2,700,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 10800,
+    "lot_size": "0.45 acres",
+    "description": "Beautiful single-family home with detached ADU perfect for rental income. Features include a large 3-car garage with high ceilings and workshop space. The accessory dwelling unit has a separate entrance and full kitchen. ",
+    "matched_keywords": [
+      "rental income",
+      "adu",
+      "accessory dwelling unit",
+      "separate entrance",
+      "adu",
+      "accessory dwelling unit"
+    ],
+    "bonus_features": [
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1090"
+  },
+  {
+    "address": "1091 Example St, City, State 98092",
+    "price": "$2,725,000",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 10900,
+    "lot_size": "0.55 acres",
+    "description": "Multi-generational home with in-law suite featuring private entrance. Large garage with RV parking capability. Perfect for extended family or rental income opportunity. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income",
+      "in-law suite",
+      "private entrance"
+    ],
+    "bonus_features": [
+      "large garage",
+      "rv parking"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1091"
+  },
+  {
+    "address": "1093 Example St, City, State 98092",
+    "price": "$2,775,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 11100,
+    "lot_size": "0.35 acres",
+    "description": "Custom home with guest house and oversized garage. The casita features full kitchen and bathroom, perfect for Airbnb or long-term rental. Workshop space in garage. ",
+    "matched_keywords": [
+      "guest house",
+      "casita",
+      "guest house"
+    ],
+    "bonus_features": [
+      "oversized garage",
+      "workshop",
+      "shop space"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1093"
+  },
+  {
+    "address": "1094 Example St, City, State 98092",
+    "price": "$2,800,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 11200,
+    "lot_size": "0.45 acres",
+    "description": "Traditional home with basement apartment featuring separate entrance. Large garage with heightened ceilings suitable for boat or RV storage. Great investment opportunity. ",
+    "matched_keywords": [
+      "separate entrance",
+      "basement apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1094"
+  },
+  {
+    "address": "1095 Example St, City, State 98092",
+    "price": "$2,825,000",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "sqft": 11300,
+    "lot_size": "0.55 acres",
+    "description": "Single-family residence with detached garage and bonus room above. Property includes a small cottage perfect for rental income or multi-generational living. ",
+    "matched_keywords": [
+      "multi-gen",
+      "multi-generational",
+      "rental income"
+    ],
+    "bonus_features": [
+      "detached garage"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1095"
+  },
+  {
+    "address": "1096 Example St, City, State 98092",
+    "price": "$2,850,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 11400,
+    "lot_size": "0.25 acres",
+    "description": "Charming home with carriage house and large workshop. The guest cottage has been updated with modern amenities and generates steady rental income. ",
+    "matched_keywords": [
+      "rental income",
+      "guest cottage",
+      "carriage house"
+    ],
+    "bonus_features": [
+      "workshop"
+    ],
+    "confidence_score": 1.0,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1096"
+  },
+  {
+    "address": "1002 Example St, City, State 98092",
+    "price": "$500,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 2000,
+    "lot_size": "0.45 acres",
+    "description": "Spacious duplex with excellent rental potential. Each unit has 2 bedrooms and 1 bathroom. Large lot with room for additional parking or storage building. ",
+    "matched_keywords": [
+      "duplex"
+    ],
+    "bonus_features": [
+      "storage building"
+    ],
+    "confidence_score": 0.8,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1002"
+  },
+  {
+    "address": "1012 Example St, City, State 98092",
+    "price": "$750,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 3000,
+    "lot_size": "0.25 acres",
+    "description": "Spacious duplex with excellent rental potential. Each unit has 2 bedrooms and 1 bathroom. Large lot with room for additional parking or storage building. ",
+    "matched_keywords": [
+      "duplex"
+    ],
+    "bonus_features": [
+      "storage building"
+    ],
+    "confidence_score": 0.8,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1012"
+  },
+  {
+    "address": "1022 Example St, City, State 98092",
+    "price": "$1,000,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 4000,
+    "lot_size": "0.45 acres",
+    "description": "Spacious duplex with excellent rental potential. Each unit has 2 bedrooms and 1 bathroom. Large lot with room for additional parking or storage building. ",
+    "matched_keywords": [
+      "duplex"
+    ],
+    "bonus_features": [
+      "storage building"
+    ],
+    "confidence_score": 0.8,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1022"
+  },
+  {
+    "address": "1032 Example St, City, State 98092",
+    "price": "$1,250,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 5000,
+    "lot_size": "0.25 acres",
+    "description": "Spacious duplex with excellent rental potential. Each unit has 2 bedrooms and 1 bathroom. Large lot with room for additional parking or storage building. ",
+    "matched_keywords": [
+      "duplex"
+    ],
+    "bonus_features": [
+      "storage building"
+    ],
+    "confidence_score": 0.8,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1032"
+  },
+  {
+    "address": "1042 Example St, City, State 98092",
+    "price": "$1,500,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 6000,
+    "lot_size": "0.45 acres",
+    "description": "Spacious duplex with excellent rental potential. Each unit has 2 bedrooms and 1 bathroom. Large lot with room for additional parking or storage building. ",
+    "matched_keywords": [
+      "duplex"
+    ],
+    "bonus_features": [
+      "storage building"
+    ],
+    "confidence_score": 0.8,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1042"
+  },
+  {
+    "address": "1052 Example St, City, State 98092",
+    "price": "$1,750,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 7000,
+    "lot_size": "0.25 acres",
+    "description": "Spacious duplex with excellent rental potential. Each unit has 2 bedrooms and 1 bathroom. Large lot with room for additional parking or storage building. ",
+    "matched_keywords": [
+      "duplex"
+    ],
+    "bonus_features": [
+      "storage building"
+    ],
+    "confidence_score": 0.8,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1052"
+  },
+  {
+    "address": "1062 Example St, City, State 98092",
+    "price": "$2,000,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 8000,
+    "lot_size": "0.45 acres",
+    "description": "Spacious duplex with excellent rental potential. Each unit has 2 bedrooms and 1 bathroom. Large lot with room for additional parking or storage building. ",
+    "matched_keywords": [
+      "duplex"
+    ],
+    "bonus_features": [
+      "storage building"
+    ],
+    "confidence_score": 0.8,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1062"
+  },
+  {
+    "address": "1072 Example St, City, State 98092",
+    "price": "$2,250,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 9000,
+    "lot_size": "0.25 acres",
+    "description": "Spacious duplex with excellent rental potential. Each unit has 2 bedrooms and 1 bathroom. Large lot with room for additional parking or storage building. ",
+    "matched_keywords": [
+      "duplex"
+    ],
+    "bonus_features": [
+      "storage building"
+    ],
+    "confidence_score": 0.8,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1072"
+  },
+  {
+    "address": "1082 Example St, City, State 98092",
+    "price": "$2,500,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 10000,
+    "lot_size": "0.45 acres",
+    "description": "Spacious duplex with excellent rental potential. Each unit has 2 bedrooms and 1 bathroom. Large lot with room for additional parking or storage building. ",
+    "matched_keywords": [
+      "duplex"
+    ],
+    "bonus_features": [
+      "storage building"
+    ],
+    "confidence_score": 0.8,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1082"
+  },
+  {
+    "address": "1092 Example St, City, State 98092",
+    "price": "$2,750,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 11000,
+    "lot_size": "0.25 acres",
+    "description": "Spacious duplex with excellent rental potential. Each unit has 2 bedrooms and 1 bathroom. Large lot with room for additional parking or storage building. ",
+    "matched_keywords": [
+      "duplex"
+    ],
+    "bonus_features": [
+      "storage building"
+    ],
+    "confidence_score": 0.8,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1092"
+  },
+  {
+    "address": "1008 Example St, City, State 98092",
+    "price": "$650,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 2600,
+    "lot_size": "0.25 acres",
+    "description": "Family home with mother-in-law suite and three-car garage. The in-law unit has its own kitchen and entrance, perfect for rental or family use. ",
+    "matched_keywords": [
+      "in-law suite",
+      "mother-in-law"
+    ],
+    "bonus_features": [],
+    "confidence_score": 0.6,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1008"
+  },
+  {
+    "address": "1018 Example St, City, State 98092",
+    "price": "$900,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 3600,
+    "lot_size": "0.45 acres",
+    "description": "Family home with mother-in-law suite and three-car garage. The in-law unit has its own kitchen and entrance, perfect for rental or family use. ",
+    "matched_keywords": [
+      "in-law suite",
+      "mother-in-law"
+    ],
+    "bonus_features": [],
+    "confidence_score": 0.6,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1018"
+  },
+  {
+    "address": "1028 Example St, City, State 98092",
+    "price": "$1,150,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 4600,
+    "lot_size": "0.25 acres",
+    "description": "Family home with mother-in-law suite and three-car garage. The in-law unit has its own kitchen and entrance, perfect for rental or family use. ",
+    "matched_keywords": [
+      "in-law suite",
+      "mother-in-law"
+    ],
+    "bonus_features": [],
+    "confidence_score": 0.6,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1028"
+  },
+  {
+    "address": "1038 Example St, City, State 98092",
+    "price": "$1,400,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 5600,
+    "lot_size": "0.45 acres",
+    "description": "Family home with mother-in-law suite and three-car garage. The in-law unit has its own kitchen and entrance, perfect for rental or family use. ",
+    "matched_keywords": [
+      "in-law suite",
+      "mother-in-law"
+    ],
+    "bonus_features": [],
+    "confidence_score": 0.6,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1038"
+  },
+  {
+    "address": "1048 Example St, City, State 98092",
+    "price": "$1,650,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 6600,
+    "lot_size": "0.25 acres",
+    "description": "Family home with mother-in-law suite and three-car garage. The in-law unit has its own kitchen and entrance, perfect for rental or family use. ",
+    "matched_keywords": [
+      "in-law suite",
+      "mother-in-law"
+    ],
+    "bonus_features": [],
+    "confidence_score": 0.6,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1048"
+  },
+  {
+    "address": "1058 Example St, City, State 98092",
+    "price": "$1,900,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 7600,
+    "lot_size": "0.45 acres",
+    "description": "Family home with mother-in-law suite and three-car garage. The in-law unit has its own kitchen and entrance, perfect for rental or family use. ",
+    "matched_keywords": [
+      "in-law suite",
+      "mother-in-law"
+    ],
+    "bonus_features": [],
+    "confidence_score": 0.6,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1058"
+  },
+  {
+    "address": "1068 Example St, City, State 98092",
+    "price": "$2,150,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 8600,
+    "lot_size": "0.25 acres",
+    "description": "Family home with mother-in-law suite and three-car garage. The in-law unit has its own kitchen and entrance, perfect for rental or family use. ",
+    "matched_keywords": [
+      "in-law suite",
+      "mother-in-law"
+    ],
+    "bonus_features": [],
+    "confidence_score": 0.6,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1068"
+  },
+  {
+    "address": "1078 Example St, City, State 98092",
+    "price": "$2,400,000",
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 9600,
+    "lot_size": "0.45 acres",
+    "description": "Family home with mother-in-law suite and three-car garage. The in-law unit has its own kitchen and entrance, perfect for rental or family use. ",
+    "matched_keywords": [
+      "in-law suite",
+      "mother-in-law"
+    ],
+    "bonus_features": [],
+    "confidence_score": 0.6,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1078"
+  },
+  {
+    "address": "1088 Example St, City, State 98092",
+    "price": "$2,650,000",
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 10600,
+    "lot_size": "0.25 acres",
+    "description": "Family home with mother-in-law suite and three-car garage. The in-law unit has its own kitchen and entrance, perfect for rental or family use. ",
+    "matched_keywords": [
+      "in-law suite",
+      "mother-in-law"
+    ],
+    "bonus_features": [],
+    "confidence_score": 0.6,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1088"
+  },
+  {
+    "address": "1098 Example St, City, State 98092",
+    "price": "$2,900,000",
+    "bedrooms": 5,
+    "bathrooms": 2.0,
+    "sqft": 11600,
+    "lot_size": "0.45 acres",
+    "description": "Family home with mother-in-law suite and three-car garage. The in-law unit has its own kitchen and entrance, perfect for rental or family use. ",
+    "matched_keywords": [
+      "in-law suite",
+      "mother-in-law"
+    ],
+    "bonus_features": [],
+    "confidence_score": 0.6,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1098"
+  },
+  {
+    "address": "1009 Example St, City, State 98092",
+    "price": "$675,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 2700,
+    "lot_size": "0.35 acres",
+    "description": "Property with main residence and detached studio apartment. Large garage with RV access and storage space. Great for income generation. ",
+    "matched_keywords": [
+      "studio apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 0.5,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1009"
+  },
+  {
+    "address": "1019 Example St, City, State 98092",
+    "price": "$925,000",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 3700,
+    "lot_size": "0.55 acres",
+    "description": "Property with main residence and detached studio apartment. Large garage with RV access and storage space. Great for income generation. ",
+    "matched_keywords": [
+      "studio apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 0.5,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1019"
+  },
+  {
+    "address": "1029 Example St, City, State 98092",
+    "price": "$1,175,000",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "sqft": 4700,
+    "lot_size": "0.35 acres",
+    "description": "Property with main residence and detached studio apartment. Large garage with RV access and storage space. Great for income generation. ",
+    "matched_keywords": [
+      "studio apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 0.5,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1029"
+  },
+  {
+    "address": "1039 Example St, City, State 98092",
+    "price": "$1,425,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 5700,
+    "lot_size": "0.55 acres",
+    "description": "Property with main residence and detached studio apartment. Large garage with RV access and storage space. Great for income generation. ",
+    "matched_keywords": [
+      "studio apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 0.5,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1039"
+  },
+  {
+    "address": "1049 Example St, City, State 98092",
+    "price": "$1,675,000",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 6700,
+    "lot_size": "0.35 acres",
+    "description": "Property with main residence and detached studio apartment. Large garage with RV access and storage space. Great for income generation. ",
+    "matched_keywords": [
+      "studio apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 0.5,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1049"
+  },
+  {
+    "address": "1059 Example St, City, State 98092",
+    "price": "$1,925,000",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "sqft": 7700,
+    "lot_size": "0.55 acres",
+    "description": "Property with main residence and detached studio apartment. Large garage with RV access and storage space. Great for income generation. ",
+    "matched_keywords": [
+      "studio apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 0.5,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1059"
+  },
+  {
+    "address": "1069 Example St, City, State 98092",
+    "price": "$2,175,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 8700,
+    "lot_size": "0.35 acres",
+    "description": "Property with main residence and detached studio apartment. Large garage with RV access and storage space. Great for income generation. ",
+    "matched_keywords": [
+      "studio apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 0.5,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1069"
+  },
+  {
+    "address": "1079 Example St, City, State 98092",
+    "price": "$2,425,000",
+    "bedrooms": 4,
+    "bathrooms": 2.5,
+    "sqft": 9700,
+    "lot_size": "0.55 acres",
+    "description": "Property with main residence and detached studio apartment. Large garage with RV access and storage space. Great for income generation. ",
+    "matched_keywords": [
+      "studio apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 0.5,
+    "property_type": "Duplex",
+    "listing_url": "https://example-realestate.com/property/1079"
+  },
+  {
+    "address": "1089 Example St, City, State 98092",
+    "price": "$2,675,000",
+    "bedrooms": 5,
+    "bathrooms": 2.5,
+    "sqft": 10700,
+    "lot_size": "0.35 acres",
+    "description": "Property with main residence and detached studio apartment. Large garage with RV access and storage space. Great for income generation. ",
+    "matched_keywords": [
+      "studio apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 0.5,
+    "property_type": "Townhome",
+    "listing_url": "https://example-realestate.com/property/1089"
+  },
+  {
+    "address": "1099 Example St, City, State 98092",
+    "price": "$2,925,000",
+    "bedrooms": 3,
+    "bathrooms": 2.5,
+    "sqft": 11700,
+    "lot_size": "0.55 acres",
+    "description": "Property with main residence and detached studio apartment. Large garage with RV access and storage space. Great for income generation. ",
+    "matched_keywords": [
+      "studio apartment"
+    ],
+    "bonus_features": [
+      "large garage"
+    ],
+    "confidence_score": 0.5,
+    "property_type": "Single Family",
+    "listing_url": "https://example-realestate.com/property/1099"
+  }
+]
