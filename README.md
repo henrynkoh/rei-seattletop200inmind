@@ -154,12 +154,29 @@ Edit `config.json` to customize:
 
 ### Main Interface
 ![Main Interface](docs/screenshots/main-interface.png)
+*Property search interface with ZIP code input, investment strategy selection, and real-time property filtering*
 
 ### Search Results
 ![Search Results](docs/screenshots/search-results.png)
+*Property search results showing confidence scores, investment metrics, and detailed property information*
 
 ### Property Details
 ![Property Details](docs/screenshots/property-details.png)
+*Detailed property view with investment analysis, photos, and income potential assessment*
+
+### User Dashboard
+![User Dashboard](docs/screenshots/dashboard.png)
+*Portfolio management dashboard with investment tracking, performance metrics, and recent activity*
+
+### Investment Calculator
+![Investment Calculator](docs/screenshots/investment-calculator.png)
+*Advanced investment calculator with cash flow analysis, ROI projections, and financial metrics*
+
+### Login Interface
+![Login Page](docs/screenshots/login-page.png)
+*Modern login interface with demo account access and platform feature highlights*
+
+> **Note**: Screenshots show the actual application interface. If images don't load, please check the [live demo](http://localhost:3001) or [documentation](docs/screenshots/README.md) for detailed interface descriptions.
 
 ## 🔌 API Integration
 

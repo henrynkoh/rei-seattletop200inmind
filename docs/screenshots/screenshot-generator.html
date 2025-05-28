@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screenshot Generator - Property Income Finder</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .screenshot-link {
+            display: block;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 10px 0;
+            text-align: center;
+            transition: background 0.3s;
+        }
+        .screenshot-link:hover {
+            background: #5a6fd8;
+        }
+        .instructions {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .status {
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .status.warning {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📸 Screenshot Generator</h1>
+        <p>Generate professional screenshots for Property Income Finder documentation</p>
+    </div>
+
+    <div class="card">
+        <h2>🚀 Quick Start</h2>
+        <div class="instructions">
+            <strong>Prerequisites:</strong>
+            <ol>
+                <li>Ensure the application is running on <code>http://localhost:3001</code></li>
+                <li>Set your browser window to 1920x1080 resolution</li>
+                <li>Use Chrome or Safari for best results</li>
+                <li>Clear browser cache and cookies</li>
+            </ol>
+        </div>
+        
+        <div class="status success">
+            ✅ Application Status: Ready for screenshots
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>📱 Screenshot Links</h2>
+        <p>Click each link to navigate to the specific interface for screenshot capture:</p>
+        
+        <a href="http://localhost:3001/" class="screenshot-link" target="_blank">
+            🏠 Main Interface - Property Search
+        </a>
+        
+        <a href="http://localhost:3001/login" class="screenshot-link" target="_blank">
+            🔐 Login Page - Authentication Interface
+        </a>
+        
+        <a href="http://localhost:3001/login?demo=true" class="screenshot-link" target="_blank">
+            👤 Demo Login - Pre-filled Credentials
+        </a>
+        
+        <a href="http://localhost:3001/dashboard" class="screenshot-link" target="_blank">
+            📊 User Dashboard - Portfolio Overview
+        </a>
+        
+        <a href="http://localhost:3001/property/1033" class="screenshot-link" target="_blank">
+            🏡 Property Details - Sample Property
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>📋 Screenshot Checklist</h2>
+        <p>For each screenshot, ensure:</p>
+        <ul>
+            <li>✅ Browser window is 1920x1080</li>
+            <li>✅ All page elements are fully loaded</li>
+            <li>✅ No loading spinners or placeholders visible</li>
+            <li>✅ Realistic data is displayed (not test data)</li>
+            <li>✅ Colors match brand guidelines</li>
+            <li>✅ Text is crisp and readable</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>🎯 Specific Instructions</h2>
+        
+        <h3>1. Main Interface Screenshot</h3>
+        <div class="instructions">
+            <ol>
+                <li>Navigate to <code>http://localhost:3001/</code></li>
+                <li>Enter ZIP code: <strong>98092</strong></li>
+                <li>Select strategy: <strong>ADU-Focused Investment</strong></li>
+                <li>Click search and wait for results to load</li>
+                <li>Capture screenshot showing search results</li>
+            </ol>
+        </div>
+
+        <h3>2. Dashboard Screenshot</h3>
+        <div class="instructions">
+            <ol>
+                <li>Login with demo account (username: demo, password: demo123)</li>
+                <li>Navigate to dashboard</li>
+                <li>Ensure portfolio data is visible</li>
+                <li>Capture full dashboard view</li>
+            </ol>
+        </div>
+
+        <h3>3. Investment Calculator</h3>
+        <div class="instructions">
+            <ol>
+                <li>From dashboard, click "Investment Calculator"</li>
+                <li>Fill in sample data:
+                    <ul>
+                        <li>Purchase Price: $485,000</li>
+                        <li>Down Payment: 20%</li>
+                        <li>Monthly Rent: $3,500</li>
+                        <li>Monthly Expenses: $800</li>
+                    </ul>
+                </li>
+                <li>Click "Calculate Returns"</li>
+                <li>Capture modal with results displayed</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>💾 Saving Screenshots</h2>
+        <div class="instructions">
+            <strong>File Naming Convention:</strong>
+            <ul>
+                <li><code>main-interface.png</code> - Main search interface</li>
+                <li><code>search-results.png</code> - Property search results</li>
+                <li><code>property-details.png</code> - Property detail page</li>
+                <li><code>dashboard.png</code> - User dashboard</li>
+                <li><code>login-page.png</code> - Login interface</li>
+                <li><code>investment-calculator.png</code> - Calculator modal</li>
+            </ul>
+        </div>
+        
+        <div class="status warning">
+            ⚠️ Save all screenshots to the <code>docs/screenshots/</code> directory
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🔧 Troubleshooting</h2>
+        <h3>Application Not Running?</h3>
+        <div class="instructions">
+            <ol>
+                <li>Open terminal in project directory</li>
+                <li>Run: <code>python3 app.py</code></li>
+                <li>Wait for "Running on http://localhost:3001" message</li>
+                <li>Refresh this page</li>
+            </ol>
+        </div>
+
+        <h3>Demo Account Issues?</h3>
+        <div class="instructions">
+            <p>If demo account doesn't work:</p>
+            <ol>
+                <li>Stop the application (Ctrl+C)</li>
+                <li>Delete <code>property_finder.db</code> file</li>
+                <li>Restart application with <code>python3 app.py</code></li>
+                <li>Demo account will be recreated automatically</li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        // Check if application is running
+        async function checkAppStatus() {
+            try {
+                const response = await fetch('http://localhost:3001/');
+                if (response.ok) {
+                    document.querySelector('.status').className = 'status success';
+                    document.querySelector('.status').innerHTML = '✅ Application Status: Running and ready for screenshots';
+                }
+            } catch (error) {
+                document.querySelector('.status').className = 'status warning';
+                document.querySelector('.status').innerHTML = '⚠️ Application Status: Not running. Please start the application first.';
+            }
+        }
+
+        // Check status when page loads
+        checkAppStatus();
+        
+        // Recheck every 30 seconds
+        setInterval(checkAppStatus, 30000);
+    </script>
+</body>
+</html> 
